@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎖 UPDATES 🎖', url="https.//t.me/anjelupdates")
                     ]
                     ]
                 await bot.send_cached_media(
@@ -329,9 +329,9 @@ async def delete(bot, message):
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [
-        [
-            
-            InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+         [
+        InlineKeyboardButton(text="❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒", url=f"https://t.me/Anjelupdates"),
+        InlineKeyboardButton(text="🧨𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎈", url=f"https://t.me/GodOfAnjelsupport" ),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
