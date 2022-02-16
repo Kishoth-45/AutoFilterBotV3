@@ -28,14 +28,8 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+➥ Name : TOKYO
+❍ Updates [Anjel Updates](https://t.me/Anjelupdates)
+❍ My [✨CREATOR🍒](https://t.me/KhiladiKing45)
 
-➥ Language : Python3
-
-➥ Library : Pyrogram Asyncio 1.13.0
-
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
 """
